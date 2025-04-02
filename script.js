@@ -1,5 +1,3 @@
-const geoAPIKey = '67ed88668fc09777207759cxha84e04';
-
 async function init() {
     document.querySelector('#navigation').innerHTML = 'Loading';
     const navigationJson = await (await fetch('./navigation.json')).json();
